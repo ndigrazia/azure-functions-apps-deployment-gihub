@@ -8,7 +8,7 @@ module.exports = async function (context, req) {
     else {
         context.res = {
             status: 400, 
-            body: "empty parameters"
+            body: "empty parameters - Github"
         };
     }
     
